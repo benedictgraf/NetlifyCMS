@@ -45,6 +45,9 @@ collections: # A list of collections the CMS should be able to edit
           - {label: Title, name: title, widget: string}
           - {label: Logo, name: logo, widget: image}
           - {label: Body, name: body, widget: markdown}
+          - {label: Heading, name: heading, widget: string}
+          - {label: Text, name: Text, widget: text}
+          - {label: image, name: image, widget: image}
           - {label: Main_Image, name: main_image, widget: image}
           - label: Contact Entries
             name: contact_entries
