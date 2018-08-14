@@ -1,7 +1,7 @@
 ---
 title: Contact
-image: /img/about-direct-sourcing.jpg
 logo: /img/logo.svg
+main_image: /img/about-jumbotron.jpg
 contact_entries:
   - heading: Location
     text: '3153 Lynn Avenue, South San Francisco, California 94080'
