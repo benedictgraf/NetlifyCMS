@@ -42,9 +42,9 @@ collections: # A list of collections the CMS should be able to edit
         name: "contact"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Image, name: image, widget: image}
           - {label: Logo, name: logo, widget: image}
           - {label: Body, name: body, widget: markdown}
+          - {label: Main_Image, name: main_image, widget: image}
           - label: Contact Entries
             name: contact_entries
             widget: list

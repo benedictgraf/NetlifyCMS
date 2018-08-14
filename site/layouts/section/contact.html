@@ -4,9 +4,6 @@
 	<div class="center mw6 pv3">
 
 		<img src="{{ .Params.logo }}" alt="" class="db w4 center pv4">
-		<img src="{{ .Params.image }}" alt="" class="db w4 center pv4">
-		<img src="{{ .image }}" alt="" class="db w4 center pv4">
-		<img src="{{ image }}" alt="" class="db w4 center pv4">
 
 		{{ .Content }}
 
@@ -16,8 +13,9 @@
 					<h4 class="f4 b lh-title mb2 primary">{{ .heading }}</h4>
 					<p>{{ .text }}</p>
 				</div>
-		<img src="{{ .Params.image }}" alt="" class="db w4 center pv4">
 			{{ end }}
+			<img src="{{ .Params.main_image }}" alt="" class="db w-100">
+
 		</div>
 
 		{{ partial "contact-form" . }}
