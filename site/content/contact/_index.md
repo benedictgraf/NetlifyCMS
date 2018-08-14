@@ -1,6 +1,6 @@
 ---
 title: Contact
-image: /img/about-direct-sourcing.jpg
+main_image: /img/about-direct-sourcing.jpg
 logo: /img/logo.svg
 contact_entries:
   - heading: Location
